@@ -4,17 +4,64 @@ body {
   padding: 0;
 }
 
-h1, h2, h3 {
-  color: #333;
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
 }
 
-ul {
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  margin: 0;
+  font-size: 14px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #333;
+  font-size: 18px;
+}
+
+section h3 {
+  color: #555;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+section ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-li {
+section li {
   margin: 10px 0;
 }
-
